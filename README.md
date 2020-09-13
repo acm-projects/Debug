@@ -36,6 +36,7 @@ Share your coding environment with your team through real-time coding collaborat
 - [**Highlight.js**](https://highlightjs.org/) - provides syntax highlighting for web editors
 - [**ShareJS**](https://github.com/josephg/ShareJS) - a server & client library for concurrent text editing
 - [**ShareDB**](https://github.com/share/sharedb) - a realtime database backend based on Operational Transformation (OT) of JSON documents
+- [**Ruby on Rails**](https://rubyonrails.org/) - a web-application framework that uses the MVC (model-viewer-controller) pattern
 - [**WebRTC**](https://webrtc.org/) - allows you to add realtime communication capabilities to your app
 - [**Heroku**](https://devcenter.heroku.com/articles/how-heroku-works) - application deployment platform
 
