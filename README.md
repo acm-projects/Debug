@@ -42,9 +42,9 @@ Share your coding environment with your team through real-time coding collaborat
 
 ### Sample Implementations
 - [**Rails**](https://www.aha.io/blog/text-editor)
-- [**React**](https://pierrehedkvist.com/posts/1-creating-a-collaborative-editor) 
+- [**React**](https://pierrehedkvist.com/posts/1-creating-a-collaborative-editor)
 - [**Conclave**](https://conclave-team.github.io/conclave-site/)
 
 ## Authors
 * **Christina Abraham** - *Project Manager* - [christinaabraham](https://github.com/christinaabraham)
-* **Firstname Lastname** - *Role* - [Username](http://github.com/)
+* **Daikie Moncion** - *Role* - [Ishinuki-Moncion](http://github.com/Ishinuki-Moncion)
