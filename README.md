@@ -47,5 +47,5 @@ Share your coding environment with your team through real-time coding collaborat
 
 ## Authors
 * **Christina Abraham** - *Project Manager* - [christinaabraham](https://github.com/christinaabraham)
-* **Daikie Moncion** - *Role* - [Ishinuki-Moncion](http://github.com/Ishinuki-Moncion)
-* **Danny Vu**       - *Front-End* - [dannyvu](https://dannykvu.github.io/)
+* **Daikie Moncion** - *Front-End/Back-End* - [Ishinuki-Moncion](http://github.com/Ishinuki-Moncion)
+* **Danny Vu**       - *Front-End/Back-End* - [dannyvu](https://dannykvu.github.io/)
