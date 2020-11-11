@@ -1,9 +1,11 @@
 const styles = theme => ({
     listItem: {
+      color: 'white',
       cursor: 'pointer'
     },
     textSection: {
-      maxWidth: '85%'
+      maxWidth: '85%',
+      color: 'white'
     },  
     deleteIcon: {
       position: 'absolute',
@@ -12,6 +14,13 @@ const styles = theme => ({
       '&:hover': {
         color: 'red'
       }
+    },
+    selectedFile: {
+      backgroundColor: '#001528',
+      '&:hover': {
+        backgroundColor: '#1A73E8'
+      }
+
     }
   });
   

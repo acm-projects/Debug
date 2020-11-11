@@ -25,6 +25,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #040213; 
   }
   /* this is the csss wrapper for the body of text editor and editor, without out it the bodies inscrease dynamically to the size of the contents inside*/
   .Topbar{
@@ -56,6 +57,7 @@ html, body {
   }
   .ql-editor {
     cursor: text;
+    background-color: #040213; 
   }
   .MuiListItem-root.Mui-selected {
     background-color: #d4d8e8 !important;
@@ -65,4 +67,6 @@ html, body {
     position: absolute;
     top: 50px;
     left: calc(50% - 165px);
+    
   }
+

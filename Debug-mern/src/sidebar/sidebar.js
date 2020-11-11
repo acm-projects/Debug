@@ -23,17 +23,17 @@ class SidebarComponent extends React.Component {
                 <div className={classes.sidebarContainer}> 
                     <Button
                         onClick={this.newFileBtnClick} //function for the new File botton
-                        className={classes.newNoteBtn}>{this.state.addingFile ? 'Cancel' : 'New File'}</Button>
+                        className={classes.newFileBtn}>{this.state.addingFile ? 'Cancel' : 'New File'}</Button>
                         {
                            this.state.addingFile ? 
                            <div>
                                <input type ='text'
-                                    className={classes.newNoteInput}
+                                    className={classes.newFileInput}
                                     placeholder='Enter File Name'
                                     onKeyUp={(e) => this.updateTitle(e.target.value)}>
                                 </input>
                                 <Button 
-                                    className= {classes.newNoteSubmitBtn}
+                                    className= {classes.newFileSubmitBtn}
                                     onClick={this.newFile}>Submit File</Button>
                             </div> :
                             null // otherwise return null
