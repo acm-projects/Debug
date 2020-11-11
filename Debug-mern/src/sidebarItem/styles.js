@@ -15,7 +15,7 @@ const styles = theme => ({
         color: 'red'
       }
     },
-    selectedFile: {
+    selectFile: {
       backgroundColor: '#001528',
       '&:hover': {
         backgroundColor: '#1A73E8'

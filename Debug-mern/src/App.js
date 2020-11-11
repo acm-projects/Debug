@@ -1,9 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SidebarComponent from './sidebar/sidebar';
 import EditorComponent from './editor/editor';
 import './App.css';
-
-
+import LoginHeader from './LoginHeader/LoginHeader';
 
 const firebase = require('firebase');
 
@@ -22,6 +22,15 @@ class App extends React.Component {
     return(
       //in react we can return one element but we can have components inside the element
       <div className = "app-container">
+        <Router>
+          <Switch>
+            <Route path="">
+              <LoginHeader/>
+            </Route>
+          </Switch>
+        </Router>
+
+       
        
         <SidebarComponent 
           selectedFileIndex = {this.state.selectedFileIndex}
@@ -39,7 +48,12 @@ class App extends React.Component {
           
 
           ></EditorComponent> : null // else the editor is empty until a file is clicked or created
+         
          }
+
+         
+
+
       </div>
       );
   }
