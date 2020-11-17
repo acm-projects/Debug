@@ -15,14 +15,14 @@ const styles = theme => ({
       padding: '5px',
       fontSize: '24px',
       width: 'calc(100% - 300px)',
-      backgroundColor: '#001528',
+      backgroundColor: '#040213',
       color: 'white',
       paddingLeft: '50px'
     },
     editIcon: {
       position: 'absolute',
       left: '310px',
-      top: '12px',
+      top: '69px',
       color: 'white',
       width: '10',
       height: '10'

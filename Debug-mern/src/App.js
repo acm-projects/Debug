@@ -1,9 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SidebarComponent from './sidebar/sidebar';
 import EditorComponent from './editor/editor';
 import './App.css';
-import LoginHeader from './LoginHeader/LoginHeader';
+//import LoginHeader from './LoginHeader/LoginHeader';
+  
+import { Router, Route } from "react-router-dom";
+import history from "./history";
+import UserProvider from "./contexts/UserProvider";
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
+import MenuBar from "./components/menus/MenuBar";
 
 const firebase = require('firebase');
 
@@ -22,12 +29,12 @@ class App extends React.Component {
     return(
       //in react we can return one element but we can have components inside the element
       <div className = "app-container">
-        <Router>
-          <Switch>
-            <Route path="">
-              <LoginHeader/>
-            </Route>
-          </Switch>
+        <Router history={history}>
+            <UserProvider>
+                <Route path="/" component={MenuBar} />
+                <Route path="/profile" component={Profile} />
+            </UserProvider>
+            <Route path="/" exact component={Home} />
         </Router>
 
        
